@@ -1,0 +1,108 @@
+.deployment{
+    
+    height: 580px;
+
+    &__wrapper{
+        position: relative;
+        display: flex;
+    
+    }
+    &__header{
+        position: absolute;
+        top:79px;
+        left:50%;
+        transform: translateX(-50%);
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 1.2;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    &__subheader{
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 0.73;
+        text-align: right;
+        color: #ffffff;
+        &_left{
+            text-align: left;
+        }
+    }
+
+    &__text{
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.44;
+        text-align: right;
+        color: #ffffff;
+        &_left{
+            text-align: left;
+        }
+
+    }
+
+
+
+    &-one{
+        position: relative;
+        display: block;
+        width: 50%;
+        height: 580px;
+        background:url('../img/deployment1.jpg')center center/cover no-repeat;
+        &__cube{
+            margin:232px 43px 0 750px;
+            width: 167px;
+            height: 167px;
+            background-color:rgba(0, 255, 242, 0.4);
+            // animation: animateCubeOne 2s linear  ;
+          
+        }
+        &__descr{
+            position: absolute;
+            top:270px;
+            right: 48px;
+         
+
+
+        }
+    
+        
+    }
+
+    &-two{
+        position: relative;
+        display: block;
+        width: 50%;
+        height: 580px;
+        background:url('../img/deployment2.jpg')center center/cover no-repeat;
+        &__cube{
+            margin:232px 750px 0 43px;
+            width: 167px;
+            height: 167px;
+            background-color:rgba(0, 255, 242, 0.4);
+            
+        }
+        &__descr{
+            position: absolute;
+            top:270px;
+            left:48px;
+            
+
+        }
+
+    }
+}
+
+// @keyframes animateCubeOne{
+// 0%{
+//     background-color:rgba(0, 255, 242, 0.4);
+// }
+
+// 100%{
+//     background-color:rgba(20, 171, 241, 0.5)
+// }
+// };
+
+

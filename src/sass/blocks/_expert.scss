@@ -1,0 +1,76 @@
+.expert{
+    min-height: 889px;
+    background: url('../img/bgr_expert.jpg')center center/cover no-repeat;
+    padding: 79px 0 61px 0;
+    &__header{
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 1.2;
+        text-align: center;
+        color: #ffffff;
+    }
+    &__list{
+        list-style-type: none;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+        padding: 0px;
+        margin: 0 auto;
+        margin-top: 25px;
+        width: 845px;
+        height: 65px;
+        border-radius: 4px;
+        border: solid 1px #ffffff;
+        li{
+            margin: 7px 0 7px 0;
+            padding: 17px 26px 17px 26px;
+            font-size: 14px;
+            text-align: center;
+            color: #ffffff;
+            border-right: 1px solid #ffffff;
+            &:nth-child(6){
+                border:none;
+            }
+        }
+    }
+
+    .carousel-two{
+        width: 947px;
+        height: 560px;
+        margin:0 auto;
+        margin-top: 35px;
+        position: relative;
+        .gggg{
+            display: block;
+            width: 870px;
+            height: 560px;
+        }
+
+    
+    }
+    .your-class{
+        position: absolute;
+        top: 35px;
+        left: 110px;
+        width: 650px;
+        height: 464px;
+        border: 2px solid grey;
+        border-radius: 2px;
+        
+}
+}
+
+.slick-prev{
+    position: absolute;
+    top:50%;
+    left: -155px;
+    background:none;
+    border:none;
+}
+.slick-next{
+    position: absolute;
+    top:50%;
+    right: -155px;
+    background:none;
+    border:none;
+}

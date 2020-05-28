@@ -1,0 +1,22 @@
+.button{
+    margin-top: 39px;
+    width: 241px;
+    height: 60px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.3);
+    background-color: #00c2f0;
+    border: none;
+    border-radius:7px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    outline: none;
+    &__work{
+        margin-top: 30px;
+    }
+    &:hover{
+        background-color: #02a8d1;
+    }
+  
+}

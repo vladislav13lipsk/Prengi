@@ -1,0 +1,23 @@
+@import'base/variables';
+
+* {
+    font-family:'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+@import'blocks/promo';
+@import'blocks/carousel';
+@import'blocks/opportunities';
+@import'blocks/expert';
+@import'blocks/advantage';
+@import'blocks/deployment';
+@import'blocks/work';
+@import'blocks/button';
+@import'blocks/footer';
